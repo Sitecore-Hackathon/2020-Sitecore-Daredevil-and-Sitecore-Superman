@@ -33,12 +33,12 @@ Below is an example of the content tree. After you install the package you will 
 ![MemberSelectionExample](images/MemberSelectionExample.png?raw=true "MemberSelectionExample")
 
 Example Screenshots:
-![TitleDescriptionExample](images/TitleDescriptionExample.png?raw=true "TitleDescriptionExample")
-![AllFilterExample](images/AllFilterExample.png?raw=true "AllFilterExample")
-![USAFilterExample](images/USAFilterExample.png?raw=true "USAFilterExample")
+![TitleDescriptionExample](/images/TitleDescriptionExample.png?raw=true "TitleDescriptionExample")
+![AllFilterExample](/images/AllFilterExample.png?raw=true "AllFilterExample")
+![USAFilterExample](/images/USAFilterExample.png?raw=true "USAFilterExample")
 
 ## Video
 
 A video of how the module works can be found here: [direct link](https://www.youtube.com/watch?v=1J6iUyd8hUo)
 
-[![Sitecore Hackathon Video Embedding Alt Text](images/superheroesassemble.png?raw=true)](https://www.youtube.com/watch?v=1J6iUyd8hUo)
+[![Sitecore Hackathon Video Embedding Alt Text](/images/superheroesassemble.png?raw=true)](https://www.youtube.com/watch?v=1J6iUyd8hUo)
