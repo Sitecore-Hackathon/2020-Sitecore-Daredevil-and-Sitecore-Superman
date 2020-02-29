@@ -1,0 +1,58 @@
+﻿@model Daredevil.Feature.Hackathon.Models.TeamsModel.CountryTeams
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<select id="dropDown" style="width: 300px">
+    <option value="all">All</option>
+    @foreach (var countryteam in Model.CountryTeamList)
+    {
+        <option value="@countryteam.Country">@countryteam.Country</option>
+    }
+</select>
+
+@foreach (var countryteam in Model.CountryTeamList)
+{
+    <div id="@countryteam.Country" class="drop-down-show-hide">
+        <h2>@countryteam.Country</h2>
+        @foreach (var team in countryteam.TeamsList)
+        {
+            <h3>@team.Name</h3>
+            <img src="@team.Imgurl"/>
+            if (team.MembersList.Any())
+            {
+                foreach (var member in team.MembersList)
+                {
+                    <table>
+                        <tr>
+                            <td>Name:<strong>@member.Name</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Email:@member.Email</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://twitter.com/@member.TwitterHandle" target="_blank"><img style="display: inline;" alt="twitter" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/twitter.png" width="18" height="14"></a>
+                                <a href="@member.LinkedInUrl" target="_blank"><img style="display: inline;" alt="linkedin" src="http://sitecorehackathon.org/wp-content/uploads/2014/09/linkedin.png" width="16" height="16"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 25px;">Website:@member.Website</td>
+                        </tr>
+                    </table>
+                }
+            }
+        }
+    </div>
+}
+<script>
+    // $('.drop-down-show-hide').hide();
+
+    $('#dropDown').change(function () {
+        if (this.value !== 'all') {
+            $('.drop-down-show-hide').hide();
+            $('#' + this.value).show();
+        } else {
+            $('.drop-down-show-hide').show();
+        }
+    });
+</script>

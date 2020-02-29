@@ -1,71 +1,44 @@
-# Documentation
+# Hackathon 2020 Website Rewrite
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
+# Welcome from Sitecore Daredevil
 
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
+Rob Reilley
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Sitecore Hackathon Website
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+The purpose of this model was to give more functionality to the Sitecore Hackathon page. It has been a while since it has been updated. I chose to add a filter and break down the elements more using Sitecore. So it will be easier to add particpants. New and returing.
 
 ## Pre-requisites
-
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+Sitecore 9.3
+There are currently no other dependencies. The code should will work with an install of Sitecore 9.3 without added modules.
 
 ## Installation
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
-
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+1. Install Sitecore 9.3.
+2. In the sc.package folder you will find a package called hackathon2020rewritesitecoreitems.
+3. Use the Sitecore Installation wizard to install the [package](sc.package/hackathon2020rewritesitecoreitems.zip)
+4. Do a full publish to make sure everything gets published.
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
+There is no configuraton required. There is content setup which is typical of Sitecore setup. Information and how to set things will be in the instruction video.
 ```
-
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+Below is an example of the content tree. After you install the package you will see it. You have the option to insert a country, team and then select members. Also you have the option to select members. See screen shot.
+![ContentTree](images/ContentTree.png?raw=true "ContentTree")
+![MemberSelectionExample](images/MemberSelectionExample.png?raw=true "MemberSelectionExample")
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+Example Screenshots:
+![TitleDescriptionExample](images/TitleDescriptionExample.png?raw=true "TitleDescriptionExample")
+![AllFilterExample](images/AllFilterExample.png?raw=true "AllFilterExample")
+![USAFilterExample](images/USAFilterExample.png?raw=true "USAFilterExample")
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
+A video of how the module works can be found here: [direct link](https://www.youtube.com/watch?v=1J6iUyd8hUo)
 
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[![Sitecore Hackathon Video Embedding Alt Text](images/superheroesassemble.png?raw=true)](https://www.youtube.com/watch?v=1J6iUyd8hUo)
