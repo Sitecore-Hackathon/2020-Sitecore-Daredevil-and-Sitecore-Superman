@@ -1,38 +1,44 @@
-![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
+# Hackathon 2020 Website Rewrite
 
-# Submission Boilerplate
+# Welcome from Sitecore Daredevil
 
-Welcome to Sitecore Hackathon 2020.
+Rob Reilley
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2020/
+## Summary
 
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
+**Category:** Sitecore Hackathon Website
 
+The purpose of this model was to give more functionality to the Sitecore Hackathon page. It has been a while since it has been updated. I chose to add a filter and break down the elements more using Sitecore. So it will be easier to add particpants. New and returing.
 
-## Entry Submission Requirements 
+## Pre-requisites
+Sitecore 9.3
+There are currently no other dependencies. The code should will work with an install of Sitecore 9.3 without added modules.
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday  February 29th 2020 at 8PM EST**. The modules should be based on [Sitecore 9.3 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx).
+## Installation
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+Provide detailed instructions on how to install the module, and include screenshots where necessary.
+1. Install Sitecore 9.3.
+2. In the sc.package folder you will find a package called hackathon2020rewritesitecoreitems.
+3. Use the Sitecore Installation wizard to install the [package](sc.package/hackathon2020rewritesitecoreitems.zip)
+4. Do a full publish to make sure everything gets published.
 
-- Sitecore 9.3 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+## Configuration
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
+There is no configuraton required. There is content setup which is typical of Sitecore setup. Information and how to set things will be in the instruction video.
+```
+## Usage
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
+Below is an example of the content tree. After you install the package you will see it. You have the option to insert a country, team and then select members. Also you have the option to select members. See screen shot.
+![ContentTree](images/ContentTree.png?raw=true "ContentTree")
+![MemberSelectionExample](images/MemberSelectionExample.png?raw=true "MemberSelectionExample")
 
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
+Example Screenshots:
+![TitleDescriptionExample](images/TitleDescriptionExample.png?raw=true "TitleDescriptionExample")
+![AllFilterExample](images/AllFilterExample.png?raw=true "AllFilterExample")
+![USAFilterExample](images/USAFilterExample.png?raw=true "USAFilterExample")
 
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+## Video
+
+A video of how the module works can be found here: [direct link](https://www.youtube.com/watch?v=1J6iUyd8hUo)
+
+[![Sitecore Hackathon Video Embedding Alt Text](images/superheroesassemble.png?raw=true)](https://www.youtube.com/watch?v=1J6iUyd8hUo)
