@@ -47,6 +47,6 @@ Below is an example of the content tree. After you install the package you will 
 
 ## Video
 
-A video of how the module works can be found here: [direct link](https://www.youtube.com/watch?v=1J6iUyd8hUo)
+A video of how the module works can be found here: [Link to Video](https://www.youtube.com/watch?v=1J6iUyd8hUo)
 
 [![Sitecore Hackathon Video Embedding Alt Text](documentation/images/superheroesassemble.png?raw=true)](https://www.youtube.com/watch?v=1J6iUyd8hUo)
