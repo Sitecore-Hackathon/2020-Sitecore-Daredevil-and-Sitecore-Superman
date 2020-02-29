@@ -34,16 +34,16 @@ Below is an example of the content tree. After you install the package you will 
 ![ContentTree](images/ContentTree.png?raw=true "ContentTree")
 
 ## Member Selection:
-![MemberSelectionExample](/images/MemberSelectionExample.png?raw=true "MemberSelectionExample")
+![MemberSelectionExample](images/MemberSelectionExample.png?raw=true "MemberSelectionExample")
 
 ## Example Screenshots
 
 ## Summary Screen:
-![TitleDescriptionExample](/images/TitleDescriptionExample.png?raw=true "TitleDescriptionExample")
+![TitleDescriptionExample](images/TitleDescriptionExample.png?raw=true "TitleDescriptionExample")
 
 ## Filtering:
-![AllFilterExample](/images/AllFilterExample.png?raw=true "AllFilterExample")
-![USAFilterExample](/images/USAFilterExample.png?raw=true "USAFilterExample")
+![AllFilterExample](images/AllFilterExample.png?raw=true "AllFilterExample")
+![USAFilterExample](images/USAFilterExample.png?raw=true "USAFilterExample")
 
 ## Video
 
