@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\USAFilterExample.png = documentation\images\USAFilterExample.png
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daredevil.Feature.Hackathon", "Daredevil.Feature.Hackathon\Daredevil.Feature.Hackathon.csproj", "{6D6137DB-2619-4AD9-AC3E-3F20444D9530}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daredevil.Feature.Hackathon", "src\Feature\Daredevil.Feature.Hackathon\Daredevil.Feature.Hackathon.csproj", "{6D6137DB-2619-4AD9-AC3E-3F20444D9530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
