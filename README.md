@@ -8,7 +8,7 @@ Rob Reilley
 
 **Category:** Sitecore Hackathon Website
 
-The purpose of this model was to give more functionality to the Sitecore Hackathon page. It has been a while since it has been updated. I chose to add a filter and break down the elements more using Sitecore. So it will be easier to add particpants. New and returing.
+The purpose of this model was to give more functionality to the Sitecore Hackathon page. It has been a while since it has been updated. I chose to add a filter and break down the elements more using Sitecore. So it will be easier to add participants. New and returing.
 
 ## Pre-requisites
 Sitecore 9.3
