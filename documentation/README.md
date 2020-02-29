@@ -31,7 +31,7 @@ There is no configuraton required. There is content setup which is typical of Si
 Below is an example of the content tree. After you install the package you will see it. You have the option to insert a country, team and then select members. Also you have the option to select members. See screen shot.
 
 ## Content Tree:
-![ContentTree](documentation/images/ContentTree.png?raw=true "ContentTree")
+![ContentTree](~/documentation/images/ContentTree.png?raw=true "ContentTree")
 
 ## Member Selection:
 ![MemberSelectionExample](documentation/images/MemberSelectionExample.png?raw=true "MemberSelectionExample")
