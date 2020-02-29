@@ -25,7 +25,7 @@ Provide detailed instructions on how to install the module, and include screensh
 ## Configuration
 
 There is no configuraton required. There is content setup which is typical of Sitecore setup. Information and how to set things will be in the instruction video.
-```
+
 ## Usage
 
 Below is an example of the content tree. After you install the package you will see it. You have the option to insert a country, team and then select members. Also you have the option to select members. See screen shot.
